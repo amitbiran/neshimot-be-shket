@@ -139,7 +139,7 @@ const MindfulnessWorkshop = () => {
       {/* Session Details */}
       <section className="px-4 py-16">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-assistant text-3xl font-semibold text-center mb-12">
+          <h2 className="font-assistant text-3xl font-bold text-center mb-12">
             📅 פרטים והרשמה
           </h2>
           <Card className="border-warm-border">
@@ -148,7 +148,7 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <Calendar className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2">🗓 מתי</h3>
+                    <h3 className="font-bold mb-2">🗓 מתי</h3>
                     <p className="text-warm-muted">
                       ימי חמישי החל מה 17.7
                     </p>
@@ -158,7 +158,7 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <MapPin className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2">📍 איפה</h3>
+                    <h3 className="font-bold mb-2">📍 איפה</h3>
                     <p className="text-warm-muted">
                       רחוב הבנים 21 נס ציונה
                     </p>
@@ -168,7 +168,7 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <DollarSign className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2">💰 עלות</h3>
+                    <h3 className="font-bold mb-2">💰 עלות</h3>
                     <p className="text-warm-muted">
                       30 שקלים למפגש. 90 שקלים לכל הסדנה
                     </p>
@@ -178,7 +178,7 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-semibold mb-2">📩 להרשמה</h3>
+                    <h3 className="font-bold mb-2">📩 להרשמה</h3>
                     <p className="text-warm-muted mb-3">
                       להרשמה 0526615611
                     </p>
@@ -189,7 +189,7 @@ const MindfulnessWorkshop = () => {
               <div className="mt-8 pt-6 border-t border-warm-border">
                 <Button 
                   className="w-full md:w-auto mx-auto block px-8 py-3 text-lg"
-                  onClick={() => window.open('tel:0526615611', '_blank')}
+                  onClick={() => window.open('https://wa.me/972526615611', '_blank')}
                 >
                   התקשרו להרשמה
                 </Button>
