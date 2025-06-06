@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Brain, Calendar, Clock, MapPin, Users, Phone } from "lucide-react";
+import { Brain, Calendar, Clock, MapPin, Users, Phone, DollarSign } from "lucide-react";
 
 const MindfulnessWorkshop = () => {
   return (
@@ -12,76 +12,26 @@ const MindfulnessWorkshop = () => {
           <div className="mb-8">
             <Brain className="w-12 h-12 text-warm-muted mx-auto mb-6" />
           </div>
-          <h1 className="font-assistant text-4xl md:text-6xl font-light text-foreground mb-6 leading-tight">
-            סדנת מיינדפולנס
+          <h1 className="font-assistant text-4xl md:text-6xl font-semibold text-foreground mb-6 leading-tight">
+            🌿 סדנת מיינדפולנס
           </h1>
-          <p className="text-xl md:text-2xl text-warm-muted font-light mb-8">
-            שלושה מפגשים עדינים להתחברות עצמית
+          <p className="text-xl md:text-2xl text-warm-muted font-medium mb-8">
+            שלושה מפגשים לעצירה, הקשבה והתפתחות
           </p>
-          <p className="text-lg text-warm-muted font-light max-w-2xl mx-auto leading-relaxed">
-            הזמנה אישית ללמוד איך להיות נוכחים, לנשום, ולגלות מחדש את היופי שבחיים הפשוטים
-          </p>
-        </div>
-      </section>
-
-      {/* Personal Story Section */}
-      <section className="px-4 py-16 bg-warm-muted/20">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="font-assistant text-3xl font-light text-center mb-12">
-            קצת עליי
-          </h2>
-          <Card className="border-none shadow-none bg-transparent">
-            <CardContent className="p-8">
-              <p className="text-lg leading-relaxed text-warm-muted mb-6">
-                שלום, אני מתרגלת מיינדפולנס, זן וטאי צ'י כבר שנים רבות. המסע הזה שינה את חיי באופן עמוק - 
-                לימד אותי איך למצוא שקט בתוך הרעש, איך להיות נוכחת ברגע, ואיך לגלות חמלה כלפי עצמי וכלפי אחרים.
-              </p>
-              <p className="text-lg leading-relaxed text-warm-muted mb-6">
-                עכשיו, אחרי שנים של תרגול אישי, אני מתחילה לחלוק את מה שלמדתי. לא כמומחית, אלא כאדם 
-                שמצא דרך לחיות בצורה יותר מלאה ורגועה.
-              </p>
-              <p className="text-lg leading-relaxed text-warm-muted">
-                הסדנה הזאת היא הזמנה לגלות יחד איך תרגולים פשוטים יכולים להביא יותר נוכחות, שלווה וחיבור 
-                לחיים שלנו.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Workshop Overview */}
-      <section className="px-4 py-16">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-assistant text-3xl font-light text-center mb-12">
-            מה נעשה יחד?
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-warm-border hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <h3 className="font-assistant text-xl font-medium mb-4">מפגש ראשון</h3>
-                <p className="text-warm-muted leading-relaxed">
-                  היכרות עם נשימה מודעת ותרגולי נוכחות בסיסיים. נלמד איך להקשיב לגוף ולנשימה שלנו.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="border-warm-border hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <h3 className="font-assistant text-xl font-medium mb-4">מפגש שני</h3>
-                <p className="text-warm-muted leading-relaxed">
-                  תרגולי מיינדפולנס בפעילויות יומיומיות - איך להביא נוכחות לאכילה, הליכה ושיחות.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="border-warm-border hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <h3 className="font-assistant text-xl font-medium mb-4">מפגש שלישי</h3>
-                <p className="text-warm-muted leading-relaxed">
-                  פיתוח תרגול אישי וכלים להמשך המסע. איך לשמור על נוכחות גם בזמנים קשים.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="text-lg text-warm-muted font-light max-w-2xl mx-auto leading-relaxed space-y-4">
+            <p>לפעמים כל מה שצריך זה שמישהו יגיד לך שאתה בסדר.</p>
+            <p>ולפעמים – אתה יכול להיות זה שעושה את זה לעצמך.</p>
+            <div className="mt-8 space-y-2">
+              <p>בואו לפגוש את עצמכם בלי הפרעות.</p>
+              <p>לנשום.</p>
+              <p>להאט.</p>
+              <p>ולגלות את הרגע הזה – בכל פעם מחדש.</p>
+            </div>
+            <p className="mt-8">
+              בתוך מציאות של חוסר שגרה ולחץ מתמשך, נלמד לפתח יציבות, רוך וחוסן פנימי דרך תרגול מיינדפולנס וזן.
+              נעצור לרגע באמת — כדי להקשיב למה שזקוק לקול, ולתת מקום למה שבדרך כלל נדחק לשוליים
+              ועוצר אותנו מלחיות את החיים שאנחנו באמת רוצים.
+            </p>
           </div>
         </div>
       </section>
@@ -89,28 +39,99 @@ const MindfulnessWorkshop = () => {
       {/* Who Is This For */}
       <section className="px-4 py-16 bg-warm-muted/20">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-assistant text-3xl font-light mb-8">
-            בשביל מי הסדנה הזאת?
+          <h2 className="font-assistant text-3xl font-semibold mb-8">
+            🧭 למי זה מתאים?
           </h2>
-          <div className="flex justify-center mb-8">
-            <Users className="w-12 h-12 text-warm-muted" />
+          <div className="text-lg text-warm-muted leading-relaxed space-y-4">
+            <p>
+              הסדנה מתאימה למי שאכפת לו מעצמו ורוצה לפגוש את עצמו קצת אחרת.
+            </p>
+            <p>
+              למי שמרגיש צורך להאט, לנשום, להקשיב פנימה – גם אם זה לא תמיד פשוט למצוא לזה מקום ביומיום.
+            </p>
+            <p>
+              היא פתוחה למי שחדש במדיטציה וגם למי שכבר מתרגל – אין צורך בניסיון קודם, רק ברצון להתקרב לעצמך.
+            </p>
+            <p>
+              באופן אישי, ה־wellbeing שלי תמיד היה חשוב לי – אבל לא תמיד היו לי הכלים להבין מה באמת קורה בתוכי או איך לטפל בזה ברוך.
+              כשהתחלתי לתרגל מיינדפולנס וזן, גיליתי דרך פשוטה ונגישה ליציבות, נשימה וחמלה – ואני שמח להזמין גם אותך לגלות אותה יחד.
+            </p>
           </div>
-          <div className="space-y-6 text-lg text-warm-muted">
-            <p>
-              • אנשים שמחפשים דרכים להאט ולהתחבר לעצמם
+        </div>
+      </section>
+
+      {/* Personal Story Section */}
+      <section className="px-4 py-16">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-assistant text-3xl font-semibold text-center mb-12">
+            👤 עליי בקצרה
+          </h2>
+          <Card className="border-none shadow-none bg-transparent">
+            <CardContent className="p-8">
+              <div className="text-lg leading-relaxed text-warm-muted space-y-6">
+                <p>
+                  אני עובד עם נשימה, תנועה ומיינדפולנס כבר שנים – הדרך שלי התחילה בטאי צ'י וצ'י קונג, והמשיכה לעומק דרך תרגול זן ומדיטציה.
+                </p>
+                <p>
+                  לאורך השנים ליוויתי גם אחרים בעזרת הכלים האלו – לא מתוך עמדה של "מורה", אלא מתוך רצון אמיתי לשתף את מה שעבד בשבילי.
+                </p>
+                <p>
+                  ראיתי איך תרגול עקבי משפיע על בריאות, מערכות יחסים, חיי היומיום והיכולת להתמודד עם אתגרים.
+                </p>
+                <p>
+                  הסדנה הזו היא הזמנה לתרגל יחד – בגובה העיניים, בפשטות, ומתוך ניסיון חיים אמיתי.
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Workshop Overview */}
+      <section className="px-4 py-16 bg-warm-muted/20">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-assistant text-3xl font-semibold text-center mb-12">
+            🧘 מה נעשה בסדנה?
+          </h2>
+          <div className="mb-8 text-center">
+            <p className="text-lg text-warm-muted leading-relaxed">
+              במהלך שלושה מפגשים נשלב תרגול מונחה, לימוד תודעתי, ושיחה פתוחה בגובה העיניים.
+              נקבל כלים שאפשר לקחת לחיים עצמם – לעבודה, לזוגיות, להורות, ולמפגש עם עצמנו.
             </p>
-            <p>
-              • מי שרוצה ללמוד איך להיות יותר נוכח בחיים היומיומיים
-            </p>
-            <p>
-              • מתחילים לגמרי - לא צריך שום ניסיון קודם
-            </p>
-            <p>
-              • מי שמחפש פשטות ואותנטיות, לא תיאוריות מסובכות
-            </p>
-            <p className="font-medium">
-              האווירה תהיה חמה, תומכת ולא שיפוטית 💚
-            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-warm-border hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="font-assistant text-xl font-semibold mb-4">✔️ מפגש ראשון – נוכחות ונשימה</h3>
+                <div className="text-warm-muted leading-relaxed space-y-2">
+                  <p>נלמד טכניקות של נשימה מודעת</p>
+                  <p>נתרגל מיינדפולנס בסיסי</p>
+                  <p>נפתח את הלב בתרגול של מטה – אהבה וחמלה פשוטה</p>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="border-warm-border hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="font-assistant text-xl font-semibold mb-4">✔️ מפגש שני – גוף, רגש ותוצאה</h3>
+                <div className="text-warm-muted leading-relaxed space-y-2">
+                  <p>נתרגל הקשבה לתחושות הגוף</p>
+                  <p>נחקור איך רגשות ומחשבות מופיעות בגוף</p>
+                  <p>נלמד עקרונות של סיבה ותוצאה בחיים האישיים</p>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="border-warm-border hover:shadow-lg transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="font-assistant text-xl font-semibold mb-4">✔️ מפגש שלישי – סקרנות ומבט פתוח</h3>
+                <div className="text-warm-muted leading-relaxed space-y-2">
+                  <p>נלמד לתרגל סקרנות כתודעה מתבוננת</p>
+                  <p>נחקור איך לשחרר תפיסות ולפגוש את הרגע הזה מחדש</p>
+                  <p>נשאיר מקום למה שמתעורר</p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -118,8 +139,8 @@ const MindfulnessWorkshop = () => {
       {/* Session Details */}
       <section className="px-4 py-16">
         <div className="max-w-3xl mx-auto">
-          <h2 className="font-assistant text-3xl font-light text-center mb-12">
-            פרטי הסדנה
+          <h2 className="font-assistant text-3xl font-semibold text-center mb-12">
+            📅 פרטים והרשמה
           </h2>
           <Card className="border-warm-border">
             <CardContent className="p-8">
@@ -127,19 +148,9 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <Calendar className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-medium mb-2">תאריכים</h3>
+                    <h3 className="font-semibold mb-2">🗓 מתי</h3>
                     <p className="text-warm-muted">
-                      שלושה רביעיים: 15.1, 22.1, 29.1
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <Clock className="w-6 h-6 text-warm-muted mt-1" />
-                  <div>
-                    <h3 className="font-medium mb-2">זמן</h3>
-                    <p className="text-warm-muted">
-                      19:00-20:30 (שעה וחצי כל מפגש)
+                      ימי חמישי החל מה 17.7
                     </p>
                   </div>
                 </div>
@@ -147,25 +158,19 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <MapPin className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-medium mb-2">מקום</h3>
+                    <h3 className="font-semibold mb-2">📍 איפה</h3>
                     <p className="text-warm-muted">
-                      סטודיו יוגה "שקט", רחוב הנרקיס 15, תל אביב
-                    </p>
-                    <p className="text-sm text-warm-muted mt-1">
-                      (קרוב לתחנת אופניים ומקומות חניה)
+                      רחוב הבנים 21 נס ציונה
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Brain className="w-6 h-6 text-warm-muted mt-1" />
+                  <DollarSign className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-medium mb-2">מחיר</h3>
+                    <h3 className="font-semibold mb-2">💰 עלות</h3>
                     <p className="text-warm-muted">
-                      ₪300 עבור שלושת המפגשים
-                    </p>
-                    <p className="text-sm text-warm-muted mt-1">
-                      (אם המחיר מהווה מכשול, בואו נדבר)
+                      30 שקלים למפגש. 90 שקלים לכל הסדנה
                     </p>
                   </div>
                 </div>
@@ -173,12 +178,9 @@ const MindfulnessWorkshop = () => {
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-warm-muted mt-1" />
                   <div>
-                    <h3 className="font-medium mb-2">הרשמה</h3>
+                    <h3 className="font-semibold mb-2">📩 להרשמה</h3>
                     <p className="text-warm-muted mb-3">
-                      במספר: 050-1234567 או בווצאפ
-                    </p>
-                    <p className="text-sm text-warm-muted">
-                      מספר המקומות מוגבל ל-8 משתתפים
+                      להרשמה 0526615611
                     </p>
                   </div>
                 </div>
@@ -187,26 +189,13 @@ const MindfulnessWorkshop = () => {
               <div className="mt-8 pt-6 border-t border-warm-border">
                 <Button 
                   className="w-full md:w-auto mx-auto block px-8 py-3 text-lg"
-                  onClick={() => window.open('https://wa.me/972501234567', '_blank')}
+                  onClick={() => window.open('tel:0526615611', '_blank')}
                 >
-                  שלחו הודעה בווצאפ להרשמה
+                  התקשרו להרשמה
                 </Button>
               </div>
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      {/* Closing Message */}
-      <section className="px-4 py-16 bg-warm-muted/20">
-        <div className="max-w-2xl mx-auto text-center">
-          <p className="text-lg text-warm-muted leading-relaxed">
-            זה יהיה מסע עדין של גילוי. לא מרוץ, לא תחרות - רק זמן איכות עם עצמנו ועם אחרים 
-            שמחפשים משהו דומה.
-          </p>
-          <p className="text-lg text-warm-muted mt-6">
-            מחכה לפגוש אתכם 🌸
-          </p>
         </div>
       </section>
     </div>
