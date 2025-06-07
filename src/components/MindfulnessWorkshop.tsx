@@ -9,7 +9,7 @@ import {
   Phone,
   DollarSign,
 } from "lucide-react";
-//
+
 const MindfulnessWorkshop = () => {
   return (
     <div
