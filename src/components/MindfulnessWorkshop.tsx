@@ -140,7 +140,7 @@ const MindfulnessWorkshop = () => {
       </section>
 
       {/* Workshop Overview */}
-      <section className="px-4 py-16 bg-warm-muted/20">
+      <section className="px-4 py-16">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-assistant text-3xl font-semibold text-center mb-12">
             🧘 מה נעשה בסדנה?
@@ -196,7 +196,7 @@ const MindfulnessWorkshop = () => {
       </section>
 
       {/* Session Details */}
-      <section className="px-4 py-16">
+      <section className="px-4 py-16 bg-warm-muted/20">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-assistant text-3xl font-bold text-center mb-12">
             📅 פרטים והרשמה
